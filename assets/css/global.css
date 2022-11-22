@@ -4,14 +4,22 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background: rgb(152,163,118);
+    background: linear-gradient(90deg, rgba(152,163,118,1) 2%, rgba(78,101,63,1) 51%, rgba(152,163,118,1) 98%);
 }
-
+h1 {
+    background-image: linear-gradient(to bottom, rgb(13, 0, 255), rgb(117, 111, 239), rgb(255, 120, 244), rgb(247, 0, 227));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background: rgb(152,163,118);
+    background: linear-gradient(90deg, rgba(152,163,118,1) 2%, rgba(78,101,63,1) 51%, rgba(152,163,118,1) 98%);
 }
 
 @media screen and (min-width: 992px) {
